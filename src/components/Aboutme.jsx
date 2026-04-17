@@ -3,7 +3,7 @@ import infoIcon from "../assets/info.png";
 export default function Aboutme() {
   return (
     <section className="mb-4">
-      <div className="border border-black/20 shadow-lg rounded-md p-6 transition hover:scale-99 transition-transform duration-250">
+      <div className="border border-black/5 shadow-lg rounded-md p-6">
         <div className="flex items-center gap-2 mb-4">
           <img
             src={infoIcon}

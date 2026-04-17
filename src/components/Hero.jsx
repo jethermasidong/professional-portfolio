@@ -44,13 +44,8 @@ export default function Hero() {
           </div>
 
           <div className="flex w-full max-w-4xl items-center justify-between gap-135">
-            <button className="group relative mt-2 inline-block overflow-hidden rounded-full bg-blue-300/30 px-5 text-sm font-semibold text-blue-700/70 transition-all hover:bg-blue-500/70 hover:text-white">
-              <div className="relative inline-block py-1.5 transition-transform duration-300 group-hover:-translate-y-full">
+            <button className="group relative mt-2 pt-1 pb-1 inline-block overflow-hidden rounded-full bg-blue-300/30 px-5 text-sm font-semibold text-blue-700/70">
                 <span className="block">Full-Stack Developer</span>
-                <span className="absolute top-full left-0 block w-full">
-                  Software Engineer
-                </span>
-              </div>
             </button>
             <button className="rounded-full border border-black px-4 py-1.5 text-sm transition-all duration-300 hover:scale-110 hover:bg-black hover:text-white">
               <img src={darknessIcon} alt="Dark" className="w-4 h-4" />
@@ -60,7 +55,7 @@ export default function Hero() {
           <div className="flex gap-3 mt-3">
             <a
               href="/resume.pdf"
-              className="flex items-center gap-2 px-4 py-2 border border-black text-sm rounded-md hover:bg-white hover:text-black transition hover:scale-110 transition-transform duration-300"
+              className="flex items-center gap-2 px-4 py-2 border border-black text-sm rounded-md hover:bg-white hover:text-black transition hover:scale-101 transition-transform duration-200"
             >
               <img src={resumeIcon} alt="Resume" className="w-4 h-4" />
               Resume
@@ -68,7 +63,7 @@ export default function Hero() {
 
             <a
               href="mailto:jethermasidong05@gmail.com"
-              className="flex items-center gap-2 px-4 py-2 border border-black text-sm rounded-md hover:bg-white hover:text-black transition hover:scale-110 transition-transform duration-300"
+              className="flex items-center gap-2 px-4 py-2 border border-black text-sm rounded-md hover:bg-white hover:text-black transition hover:scale-101 transition-transform duration-200"
             >
               <img src={emailIcon} alt="Email" className="w-4 h-4" />
               Send Email
@@ -76,16 +71,16 @@ export default function Hero() {
 
             <a
               href="https://facebook.com/jetherjetmasidong"
-              className="p-2 border border-black rounded-full hover:bg-white transition hover:scale-110 transition-transform duration-300"
+              className="p-3 border border-black rounded-full transition hover:scale-105 hover:bg-blue-300   transition-transform duration-200"
             >
-              <img src={facebookIcon} className="w-4 h-4" />
+              <img src={facebookIcon} className="w-3 h-3" />
             </a>
 
             <a
               href="https://github.com/jetherjetmasidong"
-              className="p-2 border border-black rounded-full hover:bg-white transition hover:scale-110 transition-transform duration-300"
+              className="p-3 border border-black rounded-full transition hover:scale-105 hover:bg-blue-300 transition-transform duration-200"
             >
-              <img src={githubIcon} className="w-4 h-4" />
+              <img src={githubIcon} className="w-3 h-3" />
             </a>
           </div>
         </div>

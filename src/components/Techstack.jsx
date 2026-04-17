@@ -2,14 +2,14 @@ import techIcon from "../assets/technology.png";
 
 const techStack = {
   Frontend: ["React", "Tailwind CSS", "Next.js", "HTML", "CSS", "Javascript", "Typescript"],
-  Backend: ["Node.js", "Express", "REST API", "PHP", "Python"],
+  Backend: ["Node.js", "Express", "REST API", "PHP", "Laravel", "Python"],
   Database: ["MySQL", "SQLite", "PostgreSQL"],
   Tools: ["Git", "GitHub", "Figma", "Postman", "Canva", "Microsoft Tools", "Visual Studio Code"],
 };
 
 export default function Techstack() {
   return (
-    <div className="border border-black/20 shadow-lg rounded-md p-4 text-sm transition hover:scale-99 transition-transform duration-250">
+    <div className="border border-black/5 shadow-lg rounded-md p-6">
       
       <div className="flex items-center gap-2 mb-4">
         <img src={techIcon} alt="Tech" className="w-4 h-4 opacity-70" />
@@ -26,7 +26,7 @@ export default function Techstack() {
               {items.map((tech) => (
                 <span
                   key={tech}
-                  className="px-3 py-1 border border-black rounded-full text-xs hover:text-white hover:bg-black transition hover:scale-110 transition-transform duration-300"
+                  className="px-3 py-1 border border-black rounded-full text-xs hover:text-white hover:bg-black transition hover:scale-105 transition-transform duration-300"
                 >
                   {tech}
                 </span>

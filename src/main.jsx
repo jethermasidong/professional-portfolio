@@ -3,9 +3,8 @@ import React from 'react';
 import ReactDOM from "react-dom/client";
 import './index.css'
 import App from './App.jsx'
-import { ThemeProvider } from './ThemeContext'; // Import this!
+import { ThemeProvider } from './ThemeContext'; 
 
-// Keep your pre-check here to prevent flashing
 const savedTheme = localStorage.getItem("theme");
 if (savedTheme === "dark" || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
   document.documentElement.classList.add("dark");
@@ -13,7 +12,7 @@ if (savedTheme === "dark" || (!savedTheme && window.matchMedia('(prefers-color-s
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ThemeProvider> {/* Wrap your App */}
+    <ThemeProvider> 
       <App />
     </ThemeProvider>
   </React.StrictMode>,

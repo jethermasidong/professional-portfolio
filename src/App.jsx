@@ -5,11 +5,10 @@ import Projects from "./components/Projects";
 import Techstack from "./components/Techstack";
 import Gallery from "./components/Gallery";
 import Chatbot from "./components/Chatbot";
-import Education from "./components/Education";
 export default function App() {
   return (
     
-    <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+    <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 ">
       <Hero />
       
       <section className="mt-12 flex flex-col lg:flex-row gap-6">
@@ -25,9 +24,7 @@ export default function App() {
         </div>
 
       </section>
-
       <Projects />
-      <Education />
       <Chatbot />
     </main>
   );
