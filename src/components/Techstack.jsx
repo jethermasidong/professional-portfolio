@@ -20,7 +20,7 @@ export default function Techstack() {
       <div className="space-y-4">
         {Object.entries(techStack).map(([category, items]) => (
           <div key={category}>
-            <h4 className="text-xs font-bold uppercase text-[var(--text)] mb-2">
+            <h4 className="text-xs font-bold text-[var(--text)] mb-2">
               {category}
             </h4>
 
