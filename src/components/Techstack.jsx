@@ -9,11 +9,11 @@ const techStack = {
 
 export default function Techstack() {
   return (
-    <div className="border border-black/5 shadow-lg rounded-md p-6">
+    <div className="border border-black/5 shadow-lg rounded-md p-6 mb-5">
       
       <div className="flex items-center gap-2 mb-4">
         <img src={techIcon} alt="Tech" className="w-4 h-4 opacity-70" />
-        <h3 className="text-base font-medium">Tech Stack</h3>
+        <h3 className="text-base font-satoshi font-bold">Tech Stack</h3>
       </div>
       <div className="space-y-4">
         {Object.entries(techStack).map(([category, items]) => (

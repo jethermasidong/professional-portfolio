@@ -4,7 +4,9 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Techstack from "./components/Techstack";
 import Gallery from "./components/Gallery";
-import Chatbot from "./components/Chatbot";
+import ActivityHeatmap from "./components/ActivityHeatmap";
+import './index.css';
+
 export default function App() {
   return (
     
@@ -25,7 +27,7 @@ export default function App() {
 
       </section>
       <Projects />
-      <Chatbot />
+      <ActivityHeatmap />
     </main>
   );
 }

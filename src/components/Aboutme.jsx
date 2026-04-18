@@ -10,23 +10,23 @@ export default function Aboutme() {
             alt="Info"
             className="w-4 h-4 opacity-70"
           />
-          <h2 className="text-base font-medium">About Me</h2>
+          <h2 className="text-base font-satoshi font-bold">About Me</h2>
         </div>
 
-        <p className="text-sm leading-relaxed mb-4">
+        <p className="text-sm leading-relaxed mb-4 opacity-80">
           I am a Full-Stack Developer with experience building web applications,
           APIs, and scalable systems. I am currently a third-year Information
           Technology student majoring in Web Development at the University of
           the Cordilleras.
         </p>
 
-        <p className="text-sm leading-relaxed mb-4">
+        <p className="text-sm leading-relaxed mb-4 opacity-80">
           I am currently working with my groupmates on our capstone project,
           which focuses on strengthening brand integrity and identity through
           product verification using blockchain technology.
         </p>
 
-        <p className="text-sm leading-relaxed">
+        <p className="text-sm leading-relaxed opacity-80">
           At present, I am learning more about emerging technologies such as
           blockchain (Web3) and artificial intelligence (AI). I am particularly
           interested in these fields because I want to expand my technical

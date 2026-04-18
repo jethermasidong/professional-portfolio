@@ -67,11 +67,11 @@ const statusStyles = {
 
 export default function Projects() {
   return (
-    <section className="mt-1">
+    <section className="mt-1 mb-6">
       <div className="border border-black/5 shadow-lg rounded-md p-6">
         <div className="flex items-center gap-2 mb-6">
           <img src={blueprintIcon} alt="Projects" className="w-4 h-4 opacity-70" />
-          <h2 className="text-base font-medium">Projects</h2>
+          <h2 className="text-base font-satoshi font-bold">Projects</h2>
           <a type="button" onClick={() => window.open("https://github.com/jethermasidong", "_blank")} class="ml-auto text-right text-xs pl-1 pr-1 pt-1 pb-1 border border-black/20 hover:text-white hover:bg-black transition hover:scale-105 pl-1.5 pr-1.5 rounded-lg cursor-pointer">
             View More
           </a>
@@ -81,7 +81,7 @@ export default function Projects() {
             <motion.div
               key={i}
               whileHover={{ y: -4 }}
-              className="border border-black/20 rounded-md p-4 h-full bg-white hover:shadow-md transition duration-75"
+              className="border border-black/20 rounded-md p-4 h-full bg-white hover:shadow-md hover:bg-gray-100 transition duration-75"
             >
             <div className="flex items-center justify-between gap-4">
               <h3 className="font-semibold text-sm">{project.title}</h3>

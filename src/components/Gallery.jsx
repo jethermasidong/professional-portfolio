@@ -34,7 +34,7 @@ export default function Interest() {
             alt="Interest"
             className="w-4 h-4 opacity-70"
           />
-          <h2 className="text-base font-medium">Gallery</h2>
+          <h2 className="text-base font-satoshi font-bold">Gallery</h2>
         </div>
 
         <div className="relative w-full overflow-hidden rounded-lg flex-1">

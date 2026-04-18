@@ -18,6 +18,18 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
