@@ -68,7 +68,7 @@ const statusStyles = {
 export default function Projects() {
   return (
     <section className="mt-1 mb-6">
-      <div className="border border-black/5 shadow-lg rounded-md p-6">
+      <div className="border border-[var(--comborder)] shadow-lg rounded-md p-6">
         <div className="flex items-center gap-2 mb-6">
           <img src={blueprintIcon} alt="Projects" className="w-4 h-4 opacity-70" />
           <h2 className="text-base font-satoshi font-bold">Projects</h2>
@@ -84,11 +84,11 @@ export default function Projects() {
             <motion.div
               key={i}
               whileHover={{ y: -4 }}
-              className="border border-black/20 rounded-md p-4 h-full bg-white hover:shadow-md hover:bg-gray-100 transition duration-75"
+              className="border border-[var(--projectborder)] rounded-md p-4 h-full bg-[var(--projectcard)] hover:shadow-md hover:bg-[var(--projecthover)] transition duration-75"
             >
             <div className="flex items-center justify-between gap-4">
-              <h3 className="font-semibold text-sm">{project.title}</h3>
-              <h4 className="font-light text-xs border border-black/20 shadow-sm rounded-md px-2 py-0.5">
+              <h3 className="font-semibold text-sm text-[var(--projecttitle)]">{project.title}</h3>
+              <h4 className="font-light text-xs border border-[var(--projectborder)] shadow-sm rounded-md px-2 py-0.5">
                 {project.year}
               </h4>
             </div>

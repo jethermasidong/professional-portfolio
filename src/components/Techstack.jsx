@@ -9,7 +9,7 @@ const techStack = {
 
 export default function Techstack() {
   return (
-    <div className="border border-black/5 shadow-lg rounded-md p-6 mb-5">
+    <div className="border border-[var(--comborder)] shadow-lg rounded-md p-6 mb-5">
       
       <div className="flex items-center gap-2 mb-4">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.3} stroke="currentColor" className="size-5">
@@ -20,7 +20,7 @@ export default function Techstack() {
       <div className="space-y-4">
         {Object.entries(techStack).map(([category, items]) => (
           <div key={category}>
-            <h4 className="text-xs font-bold uppercase text-black mb-2">
+            <h4 className="text-xs font-bold uppercase text-[var(--text)] mb-2">
               {category}
             </h4>
 
@@ -28,7 +28,7 @@ export default function Techstack() {
               {items.map((tech) => (
                 <span
                   key={tech}
-                  className="px-3 py-1 border border-black rounded-full text-xs hover:text-white hover:bg-black transition hover:scale-105 transition-transform duration-300"
+                  className="px-3 py-1 border border-[var(--techstackborder)] rounded-full text-xs hover:text-white hover:bg-black transition hover:scale-105 transition-transform duration-300"
                 >
                   {tech}
                 </span>

@@ -1,13 +1,47 @@
 @import "tailwindcss";
 
-html {
-  scroll-behavior: smooth;
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --card: #ffffff;
+  --border: #d3d3d3;
+  --accent: #3b82f6;
+  --accent1: #3b82f6;
+  --muted: #6b7280;
+  --comborder: #00000000;
+  --techstackborder: #000000;
+  --experiencecard: #bedbff;
+  --experienceline: #000000;
+  --projectcard: #ffffff;
+  --projecttitle: #000000;
+  --projectborder: #5854544d;
+  --projecthover: #f3f4f6;
+  --togglebuttonbg: #0000001a;
+}
+
+.dark {
+  --bg: #0f0f0f;
+  --card: #ffffff00;
+  --text: #ffffff;
+  --border: #ffffff;
+  --accent: #ffffff;
+  --accent1: #6e6f70ee;
+  --muted: #ffffff;
+  --comborder: #ffffff2f;
+  --techstackborder: #ffffff;
+  --experiencecard: #00000000;
+  --experienceline: #ffffff;
+  --projectcard: #ffffff00;
+  --projecttitle: #ffffff;
+  --projectborder: #fdfdfda6;
+  --projecthover: #f3f4f600;
+  --togglebuttonbg: #ffffff7e;
 }
 
 body {
-  background: white;
-  color: black;
-  font-family: 'Satoshi', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: all 0.3s ease;
 }
 
 
