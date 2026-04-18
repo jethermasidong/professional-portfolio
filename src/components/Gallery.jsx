@@ -23,7 +23,7 @@ export default function Interest() {
 
   return (
     <section>
-      <div className="mb-4 border border-black/20 shadow-lg rounded-md p-6 h-70 flex flex-col transition hover:scale-99 transition-transform duration-250">
+      <div className="mb-4  shadow-xl rounded-md p-6 h-70 flex flex-col transition hover:scale-99 transition-transform duration-250">
         <div className="flex items-center gap-2 mb-4">
           <img src={interestIcon} alt="Interest" className="w-4 h-4 opacity-70" />
           <h2 className="text-base font-satoshi font-bold">Gallery</h2>
@@ -59,6 +59,19 @@ export default function Interest() {
           </div>
           <button onClick={prev} className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 p-2 rounded-full shadow z-10 hover:bg-white">‹</button>
           <button onClick={next} className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 p-2 rounded-full shadow z-10 hover:bg-white">›</button>
+          <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+            {images.map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setCurrent(i)}
+                className={`h-1.5 rounded-full transition-all duration-300 ${
+                  current === i
+                    ? "w-6 bg-blue-500"
+                    : "w-2.5 bg-black/50 hover:bg-white/80"
+                }`}
+              />
+            ))}
+          </div>
         </div>
       </div>
 
