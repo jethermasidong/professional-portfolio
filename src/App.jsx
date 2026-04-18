@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Techstack from "./components/Techstack";
 import Gallery from "./components/Gallery";
 import ActivityHeatmap from "./components/ActivityHeatmap";
+import Footer from "./components/Footer"
 import './index.css';
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
       </section>
       <Projects />
       <ActivityHeatmap />
+      <Footer />
     </main>
   );
 }

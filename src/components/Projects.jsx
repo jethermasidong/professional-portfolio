@@ -72,8 +72,11 @@ export default function Projects() {
         <div className="flex items-center gap-2 mb-6">
           <img src={blueprintIcon} alt="Projects" className="w-4 h-4 opacity-70" />
           <h2 className="text-base font-satoshi font-bold">Projects</h2>
-          <a type="button" onClick={() => window.open("https://github.com/jethermasidong", "_blank")} class="ml-auto text-right text-xs pl-1 pr-1 pt-1 pb-1 border border-black/20 hover:text-white hover:bg-black transition hover:scale-105 pl-1.5 pr-1.5 rounded-lg cursor-pointer">
+          <a type="button" onClick={() => window.open("https://github.com/jethermasidong", "_blank")} class="flex items-center gap-1 ml-auto text-right text-xs pl-1 pr-1 pt-1 pb-1 border border-black/20 hover:text-white hover:bg-black transition hover:scale-105 pl-1.5 pr-1.5 rounded-lg cursor-pointer">
             View More
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-3">
+              <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
           </a>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
