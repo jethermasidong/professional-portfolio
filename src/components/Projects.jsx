@@ -69,8 +69,10 @@ export default function Projects() {
   return (
     <section className="mt-1 mb-6">
       <div className="border border-[var(--comborder)] shadow-lg rounded-md p-6">
-        <div className="flex items-center gap-2 mb-6">
-          <img src={blueprintIcon} alt="Projects" className="w-4 h-4 opacity-70" />
+        <div className="flex items-center gap-1 mb-6">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
+          </svg>
           <h2 className="text-base font-satoshi font-bold">Projects</h2>
           <a type="button" onClick={() => window.open("https://github.com/jethermasidong", "_blank")} class="flex items-center gap-1 ml-auto text-right text-xs pl-1 pr-1 pt-1 pb-1 border border-black/20 hover:text-white hover:bg-black transition hover:scale-105 pl-1.5 pr-1.5 rounded-lg cursor-pointer">
             View More
