@@ -4,7 +4,7 @@
   --bg: #ffffff;
   --text: #1a1a1a;
   --card: #ffffff;
-  --border: #d3d3d3;
+  --border: #d3d3d34b;
   --accent: #3b82f6;
   --accent1: #3b82f6;
   --muted: #6b7280;
@@ -17,13 +17,13 @@
   --projectborder: #5854544d;
   --projecthover: #f3f4f6;
   --togglebuttonbg: #0000001a;
-}
+} 
 
 .dark {
   --bg: #0f0f0f;
   --card: #ffffff00;
   --text: #ffffff;
-  --border: #ffffff;
+  --border: #ffffff41;
   --accent: #ffffff;
   --accent1: #6e6f70ee;
   --muted: #ffffff;
