@@ -57,9 +57,9 @@ export default function Hero({theme, setTheme}) {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between w-full max-w-4xl gap-3 mb-3">
-            <button className="group relative mt-1 pt-1 pb-1 inline-block overflow-hidden text-lg font-semibold text-black/50">
+            <button className="group relative mt-1 pt-1 pb-1 inline-block overflow-hidden text-md font-medium text-black/50">
               <span className="block text-[var(--text)]">
-                Full-Stack Developer / Blockchain Developer
+                Full-Stack | Blockchain Developer
               </span>
             </button>
 
