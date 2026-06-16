@@ -4,8 +4,10 @@ import img0 from "../assets/sui.jpeg";
 import img1 from "../assets/google.png";
 import img2 from "../assets/move.jpg";
 import img3 from "../assets/devfest.jpg";
+import img4 from "../assets/LLM.jpeg";
+import img5 from "../assets/IBMWD.jpeg";
 
-const images = [img0, img1, img2, img3];
+const images = [img0, img1, img2, img3, img4, img5];
 
 export default function Interest() {
   const [current, setCurrent] = useState(0);

@@ -18,7 +18,7 @@ export default function Experience() {
         <p className=" text-sm text-[var(--text)] border border-blue-500 px-3 w-fit rounded-xl mb-2 bg-[var(--experiencecard)]">2026 – Present</p>
         <h3 className="font-semibold text-base"> TESDA IT Intern</h3>
             <p className="mt-1 text-sm font-satoshi opacity-80">
-              Currently doing my IT internship at TESDA CAR Regional Office.
+              IT intern at the TESDA CAR Regional Office, currently building a compliance system for their various programs.
             </p>
           <span className="absolute left-4.5 top-26 w-3 h-3 rounded-full bg-blue-500 border border-blue-500 hover:bg-blue-600 transition hover:scale-110 transition-transform duration-300 -translate-x-1/2" />
         <p className="mt-5 text-sm text-[var(--text)] border border-blue-500 px-3 w-fit rounded-xl mb-2 bg-[var(--experiencecard)]">2024 – Present</p>
@@ -27,13 +27,13 @@ export default function Experience() {
               Recently taking commissions for custom web apps & sites. specialize in developing responsive sites and applications using a stack of React, Node, and Web3 technologies
             </p>
           <span className="absolute left-4.5 top-55 w-3 h-3 rounded-full bg-white border border-blue-500 hover:bg-blue-600 transition hover:scale-110 transition-transform duration-300 -translate-x-1/2" />
-        <p className="mt-5 text-sm text-[var(--text)] border border-blue-500 px-3 w-fit rounded-xl mb-2 bg-[var(--experiencecard)]">2023</p>
+        <p className="mt-5 text-sm text-[var(--text)] border border-blue-500 px-3 w-fit rounded-xl mb-2">2023</p>
         <h3 className="font-semibold text-base">Information Technology Student</h3>
             <p className="mt-1 text-sm font-satoshi opacity-80">
                Currently pursuing a degree of Information Technology in University of the Cordilleras.
             </p>
         <span className="absolute left-4.5 top-80 w-3 h-3 rounded-full bg-white border border-blue-500 hover:bg-blue-600 transition hover:scale-110 transition-transform duration-300 -translate-x-1/2" />
-        <p className="mt-5 text-sm text-[var(--text)] border border-blue-500 px-3 w-fit rounded-xl mb-2 bg-[var(--experiencecard)]">2023</p>
+        <p className="mt-5 text-sm text-[var(--text)] border border-blue-500 px-3 w-fit rounded-xl mb-2">2023</p>
         <h3 className="font-semibold text-base">The Starting Block</h3>
             <p className="mt-1 text-sm font-satoshi opacity-80">
               My first "Hello World!".
